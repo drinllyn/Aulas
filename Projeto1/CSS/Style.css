@@ -27,7 +27,7 @@ body {
 #menu li{
     float: left;
     list-style: none;
-    margin-left: 5px;
+    margin-left: 05px;
     background-color: rgb(219, 178, 65);
 }
 #menu li a{

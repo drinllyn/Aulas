@@ -27,13 +27,12 @@ body {
 #menu li{
     float: left;
     list-style: none;
-    margin-left: px;
+    margin-left: 5px;
     background-color: rgb(219, 178, 65);
 }
 #menu li a{
     color: dimgray;
     text-decoration: none;
-    display: block;
     text-transform: uppercase;
 }
 

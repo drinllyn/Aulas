@@ -1,0 +1,36 @@
+body{
+    background-color: #c3c3c3;
+}
+.center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+#top{
+    background-color: #c9a633;
+}
+#logo{
+    width: 100%;
+    border: solid 1px red;
+}
+#tec{
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #2c2c2c;
+    text-shadow: #2c2c2c 4px;
+}
+#blog{
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #c3c3c3;
+    text-shadow: #2c2c2c 4px;
+}
+#menu li{
+    float: left;
+    list-style: none;
+    margin-left: 05px;
+}
+.clear{
+    clear: both;
+}

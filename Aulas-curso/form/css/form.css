@@ -2,3 +2,14 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background: #643d87 url(../img/fundo.jpg) no-repeat top center;
 }
+
+#container{
+    width: 40%;
+    height: 40%;
+}
+
+#container img{
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+}

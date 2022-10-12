@@ -1,0 +1,21 @@
+/* formatação de form */
+/*
+*{
+    border: 1px solid blue;
+}
+*/
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+fieldset {
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+label{
+    display: block;
+    cursor: pointer;
+}
+/* os [] deixa escolher um tipo de atributo expecifico. */
+input[type="text"]{
+    width: 50%;
+}

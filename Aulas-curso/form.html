@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Elementos form</title>
+        <meta charset="UTF-8">
+        <!-- comentando o normalize para não interferir no padrão do projeto.
+        <link rel="stylesheet" href="css/normalize.css">
+        -->
+        <link rel="stylesheet" href="css/aula.css">
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Input</legend>
+                <div>
+                    <label for="nome">nome:</label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+                <div>
+                    <!-- Caso se utilize o input dentro da label, não terá como
+                    deixar o input a baixo do campo.
+                    -->
+                    <label>Senha: <input type="text" id="senha"></label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Text area</legend>
+                <div>
+                    <label for="msg">mensagem</label>
+                    <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <!-- Caso se utilize o input dentro da label, não terá como
+                    deixar o input a baixo do campo.
+                    -->
+                    <label>in label <textarea name="msg2" id="2" cols="30" rows="10"></textarea></label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Botões radio</legend>
+                <div>                    
+                    <!-- o For da Label é atrelado ao ID do input
+                    -->
+                    <label for="sim">Sim</label>
+                    <input type="radio" name="radio" id="sim">
+                </div>
+                <div>
+
+                    <label>in label <input type="radio" name="radio" id="primeira opção"></label>
+                </div>
+            </fieldset>
+
+        </form>
+    </body>
+</html>

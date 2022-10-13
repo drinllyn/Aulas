@@ -46,4 +46,5 @@ input.submit{
     padding: 5px 20px; 
     height: 45px;
     width: 45%;
+    background: linear-gradient(to bottom, #faa600, #f68a00);
 }

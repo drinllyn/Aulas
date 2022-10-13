@@ -37,3 +37,7 @@ body{
 #login input{
     background-image: url(../img/icone-usuario.png);
 }
+
+input.senha{
+    background-image: url(../img/icone-cadeado.png);
+}

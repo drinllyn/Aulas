@@ -39,3 +39,8 @@ input.senha{
 input.login{
     background-image: url(../img/icone-usuario.png);
 }
+input.submit{
+    color: #FFF;
+    background-color: #f79300;
+    border: 2px solid #db7d00; 
+}

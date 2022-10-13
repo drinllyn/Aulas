@@ -4,7 +4,6 @@ body{
 }
 
 #container{
-    border: red solid 1px;
     text-align: center;
     border-radius: 15px;
     width: 100%;
@@ -18,9 +17,6 @@ body{
     width: 120px;
     height: 120px;
     margin-top: -60px;
-}
-#form{
-    border: blue solid 1px;
 }
 input{
     width: 40%;

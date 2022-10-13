@@ -33,11 +33,9 @@ body{
     background-repeat: no-repeat;
     background-position: 10px;
 }
-
-#login input{
+#input.login{
     background-image: url(../img/icone-usuario.png);
 }
-
 input.senha{
     background-image: url(../img/icone-cadeado.png);
 }

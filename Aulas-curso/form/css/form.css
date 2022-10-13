@@ -22,7 +22,7 @@ body{
 #form{
     border: blue solid 1px;
 }
-#form input{
+input{
     width: 40%;
     height: 40px;
     font-size: 18px;

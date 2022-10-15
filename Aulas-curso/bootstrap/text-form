@@ -11,7 +11,17 @@
 </head>
 <!--
     Comandos utilizados durante a aula.
-    
+    Class [h1 até h6] - Formatação de cabeçalho.
+    Display class [display-1 até 4] - aplica uma formatação maior que o h1.
+    Lead class [lead] - dá destaque ao texto.
+    monospace class [text-monospace] usa fonte monospace.
+    bold class [font-weight-bold] deixa o texto em negrito.
+    normal text [font-weight-normal], sem comentario.
+    italic class [font-italic] sem comentario.
+    UPPERCASE class [text-uppercase]
+    lowercase class [text-lowercase]
+    Capitalize [text-capitalize] Deixa A Primeira Letra Maiuscula.
+
 -->
 <body>
     

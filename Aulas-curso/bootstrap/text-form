@@ -21,11 +21,17 @@
     UPPERCASE class [text-uppercase]
     lowercase class [text-lowercase]
     Capitalize [text-capitalize] Deixa A Primeira Letra Maiuscula.
-
+    Align text [text-right, left, center,justify]
+    blockquote [blockquote, blockquote-footer], citação de texto.
+    truncate [text-truncate], trunca o...
+    list [list-unstyled, inline, inline-item]
 -->
 <body>
     
-
+<blockquote class="blockquote text-weight-bold">
+    <p>Teste Blockquote, citação</p>
+</blockquote>
+<footer class="blockquote-footer">por <cite>Drinllyn</cite></footer>
 
 <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

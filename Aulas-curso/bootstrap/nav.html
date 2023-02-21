@@ -28,7 +28,7 @@
             <li class="nav-item"><a class="nav-link disabled" href="">Sobre</a></li>
         </ul>
     </div>
-
+<hr>
     <h2>Barra de navegação simples</h2>
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <!-- Logo -->
@@ -42,7 +42,7 @@
             </ul>
 
     </nav>
-
+<hr>
     <h2>Barra de navegação com menu responsivo</h2>
     
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
@@ -62,7 +62,7 @@
             </ul>
         </div>
     </nav>
-
+<hr>
     <h2>Barra de navegação com formulário</h2>
     
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
@@ -71,20 +71,48 @@
 
         <!-- Menu hamburguer-->
 
-        <button class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#nav"><span class="navbar-toggler-icon"></span></button>
+        <button class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#navform"><span class="navbar-toggler-icon"></span></button>
 
         <!-- Barra de navegação-->
-        <div class="collapse navbar-collapse" id="nav">
+        <div class="collapse navbar-collapse" id="navform">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item"><a class="nav-link active" href="">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="">Contato</a></li>
                 <li class="nav-item"><a class="nav-link disabled" href="">Sobre</a></li>
             </ul>
+        <!-- formulario -->
+        <form action="" class="form-inline">
+            <input type="text" class="form-control" placeholder="Pesquisar">
+            <button class="bnt bnt-outline-success">ok</button>
+        </form>
         </div>
     </nav>
-    
+    <hr>
     <h2>Barra de navegação com menu dropdown</h2>
-    
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <!-- Logo -->
+        <a class="navbar-brand" href="">Toca do Hobbit</a>
+
+        <!-- Menu hamburguer-->
+
+        <button class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#navdrop"><span class="navbar-toggler-icon"></span></button>
+
+        <!-- Barra de navegação-->
+        <div class="collapse navbar-collapse" id="navdrop">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link active" href="">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="">Contato</a></li>
+                <li class="nav-item"><a class="nav-link disabled" href="">Sobre</a></li>
+                <li class="nav-item"><a class="nav-link dropdown-toggle" data-toggle="dropdown" href="">serviços</a></li>
+
+                <div class="dropdown-menu">
+                    <a class="nav-link dropdown-item" href="">serviços 1</a>
+                    <a class="nav-link dropdown-item" href="">serviços 2</a>
+                    <a class="nav-link dropdown-item" href="">serviços 3</a>
+                </div>
+            </ul>
+        </div>
+    </nav>
     
     <!--Cores
     opções: bg-primary, bg-secondary, bg-success, bg-info,

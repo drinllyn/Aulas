@@ -1,7 +1,8 @@
 import { StyleSheet } from "react-native";
 
 export default StyleSheet.create({
-    text: {
+    Btext: {
         fontSize: 20,
+        justifyContent: "center",
     },
 })

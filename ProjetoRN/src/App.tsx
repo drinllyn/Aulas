@@ -1,27 +1,30 @@
 import React from "react";
 import { View, Text, StyleSheet,} from "react-native";
-import Comp1 from "./components/Comp1";
+/*import Comp1 from "./components/Comp1";
 import { CMult1, CMult2, CMult3, } from "./components/CompMult";
+import MinMax from "./components/MinMax";
+import Botao from "./components/Botao";
+import Random from "./components/Random";
+import Titulo from "./components/Titulo";
+*/
+import Contador from "./components/Contador";
 
-const styles = StyleSheet.create({
-    App: {
-      flex: 1,
-      backgroundColor: "#AA2",
-      justifyContent: "center",
-      textAlign: "center",
-    },
-  });
 
 export default function App() {
   return (
-    <View style={styles.App}>
+    <View>
       <Text>Teste do App</Text>
+      {/*
       <Comp1 />
-        <CMult1 />
-        <CMult2 />
-        <CMult3 />
+      <CMult1 />
+      <CMult2 />
+      <CMult3 />
+      <MinMax min={3} max={20} />
+      <Botao />
+      <Random min={1} max={60} />
+      <Titulo principal="Cadastro Produto" secundario="Tela de Cadastro do Produto" />
+      */}
+      <Contador valor={100} incremento={13} />
     </View>
   );
 }
-
-

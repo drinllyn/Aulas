@@ -1,25 +1,26 @@
 import React from "react";
 import { View, Text, StyleSheet,} from "react-native";
-import Style from "./style";
+import Estilo from "./Estilo";
+
 
 export function CMult1() {
   return (
     <View>
-      <Text style={Style.text}>CMult1</Text>
+      <Text style={Estilo.Btext}>CMult1</Text>
     </View>
   );
 }
 function CMult2() {
   return (
     <View>
-      <Text style={Style.text}>CMult2</Text>
+      <Text style={Estilo.Btext}>CMult2</Text>
     </View>
   );
 }
 function CMult3() {
   return (
     <View>
-      <Text style={Style.text}>CMult3</Text>
+      <Text style={Estilo.Btext}>CMult3</Text>
     </View>
   );
 }

@@ -6,8 +6,9 @@ import MinMax from "./components/MinMax";
 import Botao from "./components/Botao";
 import Random from "./components/Random";
 import Titulo from "./components/Titulo";
-*/
 import Contador from "./components/Contador";
+*/
+import Random from "./components/Random";
 
 
 export default function App() {
@@ -23,8 +24,9 @@ export default function App() {
       <Botao />
       <Random min={1} max={60} />
       <Titulo principal="Cadastro Produto" secundario="Tela de Cadastro do Produto" />
-      */}
       <Contador valor={100} incremento={13} />
+      */}
+      <Random min={1} max={60} />
     </View>
   );
 }

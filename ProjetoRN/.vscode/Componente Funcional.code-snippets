@@ -1,0 +1,19 @@
+
+	 "Print to console": {
+	 	"scope": "javascript",
+	 	"prefix": "compfunc",
+	 	"body": [
+	 		"import React from 'react';",
+			"import { Text, View } from 'react-native';",
+			"import Estilo from './estilo';",
+			"",
+			"export default function $1() {",
+			"	return (",
+			"		<View>",
+			"			<Text style={Estilo.txtG}>$2</Text>",
+			"		</View>",
+			"	)",
+			"}"
+	 	],
+	 	"description": "Log output to console"
+	 }

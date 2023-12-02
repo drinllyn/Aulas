@@ -7,9 +7,9 @@ import Botao from "./components/Botao";
 import Random from "./components/Random";
 import Titulo from "./components/Titulo";
 import Contador from "./components/Contador";
-*/
 import Contador from "./components/Contador";
-
+*/
+import Pai from "./components/direta/Pai";
 
 export default function App() {
   return (
@@ -25,8 +25,9 @@ export default function App() {
       <Random min={1} max={60} />
       <Titulo principal="Cadastro Produto" secundario="Tela de Cadastro do Produto" />
       <Contador valor={100} incremento={13} />
-      */}
       <Contador valor={100} incremento={4} />
+      */}
+      <Pai />
     </View>
   );
 }

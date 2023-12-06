@@ -11,9 +11,10 @@ import Contador from "./components/Contador";
 import Contador from "./components/Contador";
 import Pai from "./components/direta/Pai";
 import Pai from "./components/indireta/Pai";
-*/
 import ContadorV2 from "./components/contador/ContadorV2";
-
+import Diferenciar from "./components/Diferenciar";
+*/
+import ParImpar from "./components/ParImpar";
 
 export default function App() {
   return (
@@ -31,8 +32,10 @@ export default function App() {
       <Contador valor={100} incremento={13} />
       <Contador valor={100} incremento={4} />
       <Pai />
-      */}
       <ContadorV2 />
+      <Diferenciar />
+      */}
+      <ParImpar num={3} />
     </View>
 
   );

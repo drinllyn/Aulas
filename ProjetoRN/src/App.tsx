@@ -8,8 +8,10 @@ import Random from "./components/Random";
 import Titulo from "./components/Titulo";
 import Contador from "./components/Contador";
 import Contador from "./components/Contador";
-*/
 import Pai from "./components/direta/Pai";
+*/
+import Pai from "./components/indireta/Pai";
+
 
 export default function App() {
   return (

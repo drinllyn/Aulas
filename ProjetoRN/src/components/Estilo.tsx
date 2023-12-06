@@ -4,5 +4,6 @@ export default StyleSheet.create({
     Btext: {
         fontSize: 20,
         justifyContent: "center",
+        textAlign: "center",
     },
 })

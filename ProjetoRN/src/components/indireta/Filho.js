@@ -13,7 +13,7 @@ export default props => {
         <>
         <Button title="Executar" onPress={function(){
             const n = gerarNumero(props.min, props.max)
-            props.funcao(n)
+            props.funcao(n, 'O valor é: ')
             }}/>
         </>
     )

@@ -1,5 +1,6 @@
 import React from "react";
 import { View, Text, StyleSheet,} from "react-native";
+import Estilo from "./components/Estilo";
 /*import Comp1 from "./components/Comp1";
 import { CMult1, CMult2, CMult3, } from "./components/CompMult";
 import MinMax from "./components/MinMax";
@@ -9,14 +10,15 @@ import Titulo from "./components/Titulo";
 import Contador from "./components/Contador";
 import Contador from "./components/Contador";
 import Pai from "./components/direta/Pai";
-*/
 import Pai from "./components/indireta/Pai";
+*/
+import ContadorV2 from "./components/contador/ContadorV2";
 
 
 export default function App() {
   return (
-    <View>
-      <Text>Teste do App</Text>
+    <View style={Estilo.View}>
+      <Text style={Estilo.Btext}>Teste do App</Text>
       {/*
       <Comp1 />
       <CMult1 />
@@ -28,8 +30,10 @@ export default function App() {
       <Titulo principal="Cadastro Produto" secundario="Tela de Cadastro do Produto" />
       <Contador valor={100} incremento={13} />
       <Contador valor={100} incremento={4} />
-      */}
       <Pai />
+      */}
+      <ContadorV2 />
     </View>
+
   );
 }

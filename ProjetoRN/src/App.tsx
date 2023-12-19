@@ -14,8 +14,6 @@ import Pai from "./components/indireta/Pai";
 import ContadorV2 from "./components/contador/ContadorV2";
 import Diferenciar from "./components/Diferenciar";
 import ParImpar from "./components/ParImpar";
-*/
-import Pai from "./components/relacao/Pai";
 
 
 export default function App() {
@@ -37,8 +35,6 @@ export default function App() {
       <ContadorV2 />
       <Diferenciar />
       <ParImpar num={3} />
-      */}
-      <Pai />
     </View>
 
   );

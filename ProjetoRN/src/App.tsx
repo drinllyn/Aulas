@@ -16,9 +16,8 @@ import Diferenciar from "./components/Diferenciar";
 import ParImpar from "./components/ParImpar";
 import Familia from "./components/familia/Familia";
 import Membros from "./components/familia/Membros"
-import Logado from "./components/Logado";
 */
-import ListaProdutos from "./components/produtos/ListaProdutos";
+import Logado from "./components/Logado";
 
 export default function App() {
   return (
@@ -43,10 +42,9 @@ export default function App() {
         <Membros nome="Bia" sobrenome="Arruda" />
         <Membros nome="Carlos" sobrenome="Arruda" />
       </Familia>
+      */}
       <Logado usuario={ {nome: 'Drinllyn', email: 'Drinllyn@Drinllyn.com'} } />
       <Logado usuario={ {nome: 'teste', email: 'teste' } }/>    
-      */}
-      <ListaProdutos />
     </View>
 
   );

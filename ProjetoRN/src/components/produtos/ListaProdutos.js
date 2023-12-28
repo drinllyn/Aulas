@@ -3,16 +3,14 @@ import { View, Text, FlatList } from "react-native";
 import Estilo from "../Estilo";
 import Produtos from "./Produtos";
 
-export default (props) => {
+export default props => {
+    return (
     <>
     <Text style={Estilo.txtG}>Lista de Produtos</Text>
-    <FlatList>
-        data={Produtos}
-        keyExtractor={i => `${i.id}`}
-        renderItem={({item: p}) => {
-            return <Text>{p.id}) {p.nome} - R$ {p.preco}</Text>
-        }}
-    </FlatList> 
+    {Produtos.map(
+        p => { 
+            return <Text key={p.id}>{p.id}) {p.nome} tem preço de R$ {p.preco}</Text>
+            })}
     </>
-    
+    )
 }

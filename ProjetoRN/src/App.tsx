@@ -1,7 +1,8 @@
 import React from "react";
 import { View, Text, StyleSheet,} from "react-native";
 import Estilo from "./components/Estilo";
-/*import Comp1 from "./components/Comp1";
+/*
+import Comp1 from "./components/Comp1";
 import { CMult1, CMult2, CMult3, } from "./components/CompMult";
 import MinMax from "./components/MinMax";
 import Botao from "./components/Botao";
@@ -14,6 +15,7 @@ import Pai from "./components/indireta/Pai";
 import ContadorV2 from "./components/contador/ContadorV2";
 import Diferenciar from "./components/Diferenciar";
 import ParImpar from "./components/ParImpar";
+*/
 
 
 export default function App() {
@@ -35,6 +37,7 @@ export default function App() {
       <ContadorV2 />
       <Diferenciar />
       <ParImpar num={3} />
+      */}
     </View>
 
   );
